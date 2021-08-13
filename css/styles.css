@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+h1{
+  margin: 0 auto;
+  width: 30%;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  color: rgb(124, 182, 77);
+}
+h2{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+}
+h3{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+p{
+  margin: 0 auto 25px auto;
+  width: 50%;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  color: rgb(77, 135, 62);
+}
+hr{
+  border-style: dotted none none;
+  border-color: white;
+  border-width: 7px;
+  width: 10%;
+  margin: auto;
+
+}
+/****************************************************CLASS SELECTORS***********************************************************/
+
+.logo{
+  position: absolute;
+  left:30px;
+  top:30px;
+}
+.top-container{
+  background-color: #071b0e;
+  position: relative;
+  padding-top: 165px;
+}
+.middle-container{
+  background-color: #071b0e;
+}
+.bottom-container{
+  background-color: #071b0e;
+}
+.profile-pic{
+  border-radius:100%;
+  margin-top: 35px;
+  border: 5px solid white;
+}
+.pro{
+  text-decoration:underline;
+}
+.top-cloud{
+  position:absolute;
+  right: 345px;
+  top:65px;
+}
+.bottom-cloud{
+  position:absolute;
+  left: 400px;
+  top: 270px;
+}
+.btn{
+  color: #20bf6b !important;
+  text-transform: uppercase;
+  background: #071b0e;
+  padding: 20px;
+  border: 4px solid #20bf6b !important;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  margin: 10px auto 30px auto;
+}
+.btn:hover{
+  color: white !important;
+	border-radius: 50px;
+	border-color: white !important;
+	transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+.footer-link{
+  padding: 10px;
+  color: white;
+  margin-bottom: 50px;
+}
